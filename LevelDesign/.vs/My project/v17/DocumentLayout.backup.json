@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\My project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\h00ver4ever\\documents\\github respoitory\\random\\my project\\assets\\scripts\\utils\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BootStrapper.cs",
+              "DocumentMoniker": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\My project\\Assets\\Scripts\\Utils\\BootStrapper.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\BootStrapper.cs",
+              "ToolTip": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\My project\\Assets\\Scripts\\Utils\\BootStrapper.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\BootStrapper.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T18:37:43.782Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
