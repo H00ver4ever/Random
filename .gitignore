@@ -11,3 +11,7 @@ WIP game/Library/Bee/fullprofile.json
 /WIP game/Library
 /WIP game
 /WIP game/Library/Bee
+LevelDesign/Assets/TerrainDemoScene_URP/Terrain/Textures/Cliff_Mossy_E/Cliff_Mossy_E_Normal.tif
+LevelDesign/Assets/TerrainDemoScene_URP/Terrain/Textures/Cliff_Mossy_E/Cliff_Mossy_E_MaskMap.tif
+LevelDesign/Assets/TerrainDemoScene_URP/Terrain/Textures/Cliff_Mossy_E/Cliff_Mossy_E_BaseColor.tif
+LevelDesign/Library/PackageCache/com.unity.burst/.Runtime/libburst-llvm-16.dylib
