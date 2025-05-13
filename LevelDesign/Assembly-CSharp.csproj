@@ -61,10 +61,62 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Input\ProjectActions.cs" />
+    <Compile Include="Assets\Scripts\Utils\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Everything\EnemyContext.cs" />
+    <Compile Include="Assets\Scripts\Everything\Weapon.cs" />
+    <Compile Include="Assets\TerrainDemoScene_URP\Scripts\SceneAnnotation.cs" />
     <Compile Include="Assets\Scripts\Utils\BootStrapper.cs" />
+    <Compile Include="Assets\Scripts\Everything\EnemyStateMachine.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Everything\Enemy.cs" />
+    <Compile Include="Assets\Scripts\GameManager\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Everything\Invisenemy.cs" />
+    <Compile Include="Assets\TerrainDemoScene_URP\Scripts\TerrainTreeToggle.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\BTM_Assets\BTM_Items_Gems\Scripts\SimpleGemsAnim.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
+    <Compile Include="Assets\Scripts\Everything\Pickups.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TerrainDemoScene_URP\Notes\Stamps.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\ThirdPartyNotices.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMPro.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\FadeDistances.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\Importing maps.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_Bitmap.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\ShaderGraphs\CustomFunctions\PseudoSubsurface.hlsl" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\ProxyTerrain.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMPro_Mobile.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF SSD.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\Scripts\Resources\SceneAnnotation.uxml" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\Layers.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\Welcome.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\Reflections.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMPro_Properties.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\Scripts\Resources\SceneAnnotationUI.uss" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMPro_Surface.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\DenseDetails.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Fonts\License.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\Tiles.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\SkyboxAssets.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\WaterShader.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\SpeedTrees.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1063,6 +1115,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Cinemachine.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
       <Private>False</Private>
@@ -1099,12 +1155,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Splines">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections">
@@ -1133,6 +1197,10 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Splines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
@@ -1249,6 +1317,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="CatSplatStudios.StateMachine.csproj">
+      <Project>{BB10D533-F465-F99B-27CF-6E4CA09537D1}</Project>
+      <Name>CatSplatStudios.StateMachine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
