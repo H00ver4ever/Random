@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\assets\\scripts\\everything\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\everything\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|c:\\users\\h00ver4ever\\documents\\github respoitory\\random\\leveldesign\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\assets\\scripts\\everything\\enemycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\everything\\enemycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\assets\\scripts\\everything\\enemystatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\everything\\enemystatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\assets\\scripts\\everything\\pickups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\everything\\pickups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\assets\\input\\projectactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|solutionrelative:assets\\input\\projectactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\assets\\scripts\\utils\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\assets\\scripts\\utils\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\assets\\scripts\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\assets\\scripts\\everything\\invisenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\everything\\invisenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\assets\\scripts\\everything\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\everything\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,20 +58,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TerrainLit.shader",
-              "DocumentMoniker": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
-              "ToolTip": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-04-13T23:59:51.753Z",
+              "DocumentIndex": 3,
+              "Title": "EnemyStateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Everything\\EnemyStateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Everything\\EnemyStateMachine.cs",
+              "ToolTip": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Everything\\EnemyStateMachine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Everything\\EnemyStateMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T20:23:14.373Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyContext.cs",
+              "DocumentMoniker": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Everything\\EnemyContext.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Everything\\EnemyContext.cs",
+              "ToolTip": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Everything\\EnemyContext.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Everything\\EnemyContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T20:17:27.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Everything\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Everything\\Enemy.cs",
+              "ToolTip": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Everything\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Everything\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T18:20:48.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Everything\\Weapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Everything\\Weapon.cs",
+              "ToolTip": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Everything\\Weapon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Everything\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:10:56.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Invisenemy.cs",
+              "DocumentMoniker": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Everything\\Invisenemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Everything\\Invisenemy.cs",
+              "ToolTip": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Everything\\Invisenemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Everything\\Invisenemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:16:17.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pickups.cs",
+              "DocumentMoniker": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Everything\\Pickups.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Everything\\Pickups.cs",
+              "ToolTip": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Everything\\Pickups.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Everything\\Pickups.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:54:36.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\GameManager\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager\\GameManager.cs",
+              "ToolTip": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\GameManager\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:16:25.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BootStrapper.cs",
+              "DocumentMoniker": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Utils\\BootStrapper.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\BootStrapper.cs",
+              "ToolTip": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Utils\\BootStrapper.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\BootStrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:33:49.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Singleton.cs",
+              "DocumentMoniker": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Utils\\Singleton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Singleton.cs",
+              "ToolTip": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Utils\\Singleton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\Singleton.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCAAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:21:53.118Z"
             },
             {
               "$type": "Document",
@@ -41,10 +179,34 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwDoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T21:42:01.88Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TerrainLit.shader",
+              "DocumentMoniker": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
+              "ToolTip": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-04-13T23:59:51.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectActions.cs",
+              "DocumentMoniker": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Input\\ProjectActions.cs",
+              "RelativeDocumentMoniker": "Assets\\Input\\ProjectActions.cs",
+              "ToolTip": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Assets\\Input\\ProjectActions.cs",
+              "RelativeToolTip": "Assets\\Input\\ProjectActions.cs",
+              "ViewState": "AgIAABkBAAAAAAAAAAAAADQBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:57:07.403Z"
             }
           ]
         }
