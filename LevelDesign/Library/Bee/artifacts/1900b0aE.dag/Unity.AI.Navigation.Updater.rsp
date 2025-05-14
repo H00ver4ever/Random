@@ -396,10 +396,12 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Library/PackageCache/com.unity.ai.navigation/Editor/Updater/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.ai.navigation/Editor/Updater/BuiltInToNavMeshSurfaceConverterContainer.cs"
+"Library/PackageCache/com.unity.ai.navigation/Editor/Updater/NavigationConverterContainer.cs"
+"Library/PackageCache/com.unity.ai.navigation/Editor/Updater/NavigationUpdaterEditor.cs"
 "Library/PackageCache/com.unity.ai.navigation/Editor/Updater/NavMeshSceneConverter.cs"
-"Library/PackageCache/com.unity.ai.navigation/Editor/Updater/NavMeshUpdaterEditor.cs"
 "Library/PackageCache/com.unity.ai.navigation/Editor/Updater/NavMeshUpdaterUtility.cs"
+"Library/PackageCache/com.unity.ai.navigation/Editor/Updater/OffMeshLinkConverter.cs"
+"Library/PackageCache/com.unity.ai.navigation/Editor/Updater/OffMeshLinkUpdaterUtility.cs"
 -langversion:9.0
 /deterministic
 /optimize+
