@@ -7,10 +7,12 @@ using UnityEngine.UIElements;
 
 namespace Unity.AI.Navigation.Editor
 {
-    [Overlay(typeof(SceneView), "AINavigationOverlay", "AI Navigation", defaultDisplay = true)]
+    [Overlay(typeof(SceneView), k_OverlayId, "AI Navigation", defaultDisplay = false)]
     [Icon(NavMeshComponentsGUIUtility.k_PackageEditorResourcesFolder + "Overlay/NavigationOverlay.png")]
     internal class NavigationOverlay : Overlay
     {
+        const string k_OverlayId = "AINavigationOverlay";
+
         static class Style
         {
             internal static readonly GUIContent SurfacesSectionTexts =
@@ -216,7 +218,14 @@ namespace Unity.AI.Navigation.Editor
             };
 
             foldout.RegisterValueChangedCallback(evt =>
-                EditorPrefs.SetBool(prefName, evt.newValue));
+            {
+                EditorPrefs.SetBool(prefName, evt.newValue);
+#if OVERLAY_REFRESH_API
+                var sceneView = EditorWindow.GetWindow<SceneView>();
+                if (sceneView.TryGetOverlay(k_OverlayId, out var overlay))
+                    overlay.RefreshPopup();
+#endif
+            });
 
             parent.Add(foldout);
 
@@ -240,7 +249,7 @@ namespace Unity.AI.Navigation.Editor
             // Add padding to guarantee a minimum separation between labels and checkboxes
             toggle.labelElement.style.paddingRight = 20;
 
-            // Look for the checkbox container and make it align the checkbox to the right (so that all checkboxes are justified) 
+            // Look for the checkbox container and make it align the checkbox to the right (so that all checkboxes are justified)
             foreach (VisualElement child in toggle.Children())
             {
                 if (child != toggle.labelElement)
@@ -314,7 +323,7 @@ namespace Unity.AI.Navigation.Editor
         {
             if (m_VisualizationDisabledHelpBox == null)
                 return;
-            
+
             if (enabled)
             {
                 if (m_VisualizationDisabledHelpBox.visible)
