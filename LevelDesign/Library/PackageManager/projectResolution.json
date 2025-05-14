@@ -8,12 +8,20 @@
     "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Packages\\packages-lock.json"
   ],
   "outputs": {
-    "com.unity.ai.navigation@2.0.5": {
+    "com.unity.ai.navigation@2.0.7": {
       "name": "com.unity.ai.navigation",
       "resolvedPath": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Library\\PackageCache\\com.unity.ai.navigation",
-      "fingerprint": "9f76b145f0a8dd734ff2a4877f7f7edb83b7f62c",
-      "editorCompatibility": "2023.2.0a18",
-      "version": "2.0.5",
+      "fingerprint": "39ae74efb85f9b44dc389774fc59c2ce4a8aa3b6",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "2.0.7",
+      "source": "registry"
+    },
+    "com.unity.cinemachine@3.1.3": {
+      "name": "com.unity.cinemachine",
+      "resolvedPath": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Library\\PackageCache\\com.unity.cinemachine",
+      "fingerprint": "624f919d8cdd376712eda21b43abcb0330c023e2",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "3.1.3",
       "source": "registry"
     },
     "com.unity.collab-proxy@2.7.1": {
@@ -346,6 +354,14 @@
       "fingerprint": "56a930affa1e4462d3595b5c19a1c2a4bf2015d2",
       "editorCompatibility": "2018.4.0a1",
       "version": "2.0.1",
+      "source": "registry"
+    },
+    "com.unity.splines@2.7.2": {
+      "name": "com.unity.splines",
+      "resolvedPath": "C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\Library\\PackageCache\\com.unity.splines",
+      "fingerprint": "d3e1e500c9a0fa3a1e812117108982dd612c2e27",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "2.7.2",
       "source": "registry"
     },
     "com.unity.searcher@4.9.2": {
