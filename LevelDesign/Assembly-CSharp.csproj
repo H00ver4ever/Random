@@ -64,18 +64,23 @@
     <Compile Include="Assets\Input\ProjectActions.cs" />
     <Compile Include="Assets\Scripts\Utils\Singleton.cs" />
     <Compile Include="Assets\Scripts\Everything\EnemyContext.cs" />
+    <Compile Include="Assets\Scripts\menus\MenuController.cs" />
     <Compile Include="Assets\Scripts\Everything\Weapon.cs" />
+    <Compile Include="Assets\Scripts\GameManager\SceneManager.cs" />
     <Compile Include="Assets\TerrainDemoScene_URP\Scripts\SceneAnnotation.cs" />
     <Compile Include="Assets\Scripts\Utils\BootStrapper.cs" />
+    <Compile Include="Assets\Scripts\Everything\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Everything\EnemyStateMachine.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Everything\Enemy.cs" />
+    <Compile Include="Assets\Scripts\menus\BaseMenu.cs" />
     <Compile Include="Assets\Scripts\GameManager\GameManager.cs" />
     <Compile Include="Assets\Scripts\Everything\Invisenemy.cs" />
     <Compile Include="Assets\TerrainDemoScene_URP\Scripts\TerrainTreeToggle.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\BTM_Assets\BTM_Items_Gems\Scripts\SimpleGemsAnim.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
+    <Compile Include="Assets\Scripts\menus\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Everything\Pickups.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +90,7 @@
     <None Include="Assets\TerrainDemoScene_URP\Notes\FadeDistances.txt" />
     <None Include="Assets\TerrainDemoScene_URP\Notes\Importing maps.txt" />
     <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\TerrainDemoScene_URP\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
     <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_Bitmap.shader" />
     <None Include="Assets\TerrainDemoScene_URP\ShaderGraphs\CustomFunctions\PseudoSubsurface.hlsl" />
@@ -94,8 +100,10 @@
     <None Include="Assets\TerrainDemoScene_URP\Scripts\Resources\SceneAnnotation.uxml" />
     <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TerrainDemoScene_URP\Notes\Layers.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\TerrainDemoScene_URP\Notes\Welcome.txt" />
     <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TerrainDemoScene_URP\Notes\Reflections.txt" />
     <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF.shader" />
