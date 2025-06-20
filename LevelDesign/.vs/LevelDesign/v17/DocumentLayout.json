@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB10D533-F465-F99B-27CF-6E4CA09537D1}|CatSplatStudios.StateMachine.csproj|c:\\users\\h00ver4ever\\documents\\github respoitory\\random\\leveldesign\\assets\\statemachine\\editor\\statecentricvisualizationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB10D533-F465-F99B-27CF-6E4CA09537D1}|CatSplatStudios.StateMachine.csproj|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\assets\\statemachine\\editor\\statecentricvisualizationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB10D533-F465-F99B-27CF-6E4CA09537D1}|CatSplatStudios.StateMachine.csproj|solutionrelative:assets\\statemachine\\editor\\statecentricvisualizationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB10D533-F465-F99B-27CF-6E4CA09537D1}|CatSplatStudios.StateMachine.csproj|c:\\users\\h00ver4ever\\documents\\github respoitory\\random\\leveldesign\\assets\\statemachine\\editor\\statecentricwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB10D533-F465-F99B-27CF-6E4CA09537D1}|CatSplatStudios.StateMachine.csproj|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\assets\\statemachine\\editor\\statecentricwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB10D533-F465-F99B-27CF-6E4CA09537D1}|CatSplatStudios.StateMachine.csproj|solutionrelative:assets\\statemachine\\editor\\statecentricwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{6F4463E7-3050-4780-D9CE-1B33995EB729}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{753820C5-36AB-67F7-E080-325DF8EA7F2C}|Assembly-CSharp-Editor.csproj|c:\\users\\h00ver4ever\\documents\\github respoitory\\random\\leveldesign\\assets\\tutorialinfo\\scripts\\editor\\readmeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{753820C5-36AB-67F7-E080-325DF8EA7F2C}|Assembly-CSharp-Editor.csproj|C:\\Users\\H00ver4ever\\Documents\\Github Respoitory\\Random\\LevelDesign\\assets\\tutorialinfo\\scripts\\editor\\readmeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{753820C5-36AB-67F7-E080-325DF8EA7F2C}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\editor\\readmeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -102,8 +102,7 @@
               "RelativeToolTip": "Assets\\StateMachine\\Editor\\StateCentricVisualizationExtensions.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAtwDAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T15:33:39.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T15:33:39.911Z"
             },
             {
               "$type": "Document",
@@ -115,8 +114,7 @@
               "RelativeToolTip": "Assets\\StateMachine\\Editor\\StateCentricWindow.cs",
               "ViewState": "AgIAAMICAADgoMeIvGQiwNcCAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T15:32:37.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T15:32:37.103Z"
             },
             {
               "$type": "Document",
@@ -128,8 +126,7 @@
               "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAD4v1kAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T15:29:34.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T15:29:34.616Z"
             },
             {
               "$type": "Document",
@@ -141,8 +138,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager\\SceneManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T18:13:22.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T18:13:22.536Z"
             },
             {
               "$type": "Document",
@@ -202,8 +198,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Everything\\EnemyStateMachine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T20:23:14.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T20:23:14.373Z"
             },
             {
               "$type": "Document",
