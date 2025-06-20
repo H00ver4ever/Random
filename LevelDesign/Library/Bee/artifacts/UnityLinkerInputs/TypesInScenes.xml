@@ -3,7 +3,10 @@
 		<type fullname="Benjathemaker.SimpleGemsAnim" preserve="nothing"/>
 		<type fullname="BooBehavior" preserve="nothing"/>
 		<type fullname="BootStrapper" preserve="nothing"/>
+		<type fullname="CanvasManager" preserve="nothing"/>
 		<type fullname="Enemy" preserve="nothing"/>
+		<type fullname="GameManager" preserve="nothing"/>
+		<type fullname="LoadSavemanager" preserve="nothing"/>
 		<type fullname="MainMenu" preserve="nothing"/>
 		<type fullname="MenuController" preserve="nothing"/>
 		<type fullname="Pickups" preserve="nothing"/>
@@ -113,8 +116,11 @@
 		<type fullname="UnityEngine.AI.NavMeshData" preserve="nothing"/>
 		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
 		<type fullname="UnityEngine.Animator" preserve="nothing"/>
+		<type fullname="UnityEngine.Audio.AudioResource" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioSource" preserve="nothing"/>
 		<type fullname="UnityEngine.Avatar" preserve="nothing"/>
 		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>

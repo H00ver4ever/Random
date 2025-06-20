@@ -1,24 +1,47 @@
 using System;
 using UnityEngine;
+using System.Collections;
+
 
 public class GameManager : MonoBehaviour
 {
-    // Optional: Make this a singleton if you want a single instance across scenes
-    public static GameManager Instance;
-
-    void Awake()
+    public static LoadSavemanager StateManager
     {
-        // Singleton setup (optional)
-        if (Instance == null)
+        
+        get
         {
-            Instance = this;
-            DontDestroyOnLoad(gameObject); // Keep this object between scenes
-        }
-        else
-        {
-            Destroy(gameObject);
+            if (!stateManager)
+                stateManager = instance.GetComponent<LoadSavemanager>();
+
+            return stateManager;
         }
     }
+    public static GameManager instance1
+    {
+        get
+        {
+            if (!instance1)
+                instance = new GameObject("GameManager").AddComponent<GameManager>();
+            return instance1;
+        }
+    }
+
+    // Optional: Make this a singleton if you want a single instance across scenes
+    public static GameManager instance;
+    private static LoadSavemanager stateManager = null;
+
+    // Called before Start on object creation
+    void Awake ()
+	{
+		//Check if there is an existing instance of this object
+		if((instance) && (instance.GetInstanceID() != GetInstanceID()))
+			Destroy(gameObject); //Delete duplicate
+		else
+		{
+			instance = this; //Make this object the only instance
+			DontDestroyOnLoad (gameObject); //Set as do not destroy
+		}
+	}
 
     void Update()
     {
@@ -27,6 +50,30 @@ public class GameManager : MonoBehaviour
         {
             ExitGame();
         }
+    }
+
+
+
+    // Save Game
+    public void SaveGame()
+    {
+        Debug.Log("testsavegameinGM");
+        // Print the path where the XML is save
+        Debug.Log(Application.persistentDataPath);
+
+        // Call save game functionality
+        StateManager.Save(Application.persistentDataPath + "/SaveGame.xml");
+    }
+
+    // Load Game
+    public void LoadGame()
+    {
+        Debug.Log("TestLoadgameinGM");
+        //Call load game functionality
+        StateManager.Load(Application.persistentDataPath + "/SaveGame.xml");
+
+        // Restart Level
+        //RestartGame();
     }
     public void ExitGame()
     {

@@ -42,6 +42,9 @@ public class Player : MonoBehaviour, ProjectActions.IOverworldActions
 
     private bool isJumpPressed = false;
 
+    public int health;
+    public bool collectedWeapon;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -182,5 +185,64 @@ public class Player : MonoBehaviour, ProjectActions.IOverworldActions
         }
     }
 
-    
-}
+    public void SaveGamePrepare()
+    {
+        Debug.Log("whatishappenin");
+        // Get Player Data Object
+        LoadSavemanager.LevelStateData.DataPlayer data = GameManager.StateManager.levelState.player;
+
+        // Fill in player data for save game
+        data.collectedWeapon = collectedWeapon;
+        data.health = health;
+
+        data.posRotScale.posX = transform.position.x;
+        data.posRotScale.posY = transform.position.y;
+        data.posRotScale.posZ = transform.position.z;
+
+        data.posRotScale.rotX = transform.localEulerAngles.x;
+        data.posRotScale.rotY = transform.localEulerAngles.y;
+        data.posRotScale.rotZ = transform.localEulerAngles.z;
+
+        data.posRotScale.scaleX = transform.localScale.x;
+        data.posRotScale.scaleY = transform.localScale.y;
+        data.posRotScale.scaleZ = transform.localScale.z;
+
+    }
+
+    // Function called when loading is complete
+    public void LoadGameComplete()
+    {
+        // Get Player Data Object
+        LoadSavemanager.LevelStateData.DataPlayer data =
+            GameManager.StateManager.levelState.player;
+
+        // Load data back to Player
+        health = data.health;
+
+
+        // Give player weapon, activate and destroy weapon power-up
+        if (data.collectedWeapon)
+        {
+            // Find weapon powerup in level
+            GameObject weaponPowerUp = GameObject.Find("Weapon_PowerUp");
+
+            // Send OnTriggerEnter message
+            weaponPowerUp.SendMessage("OnTriggerEnter2D", GetComponent<Collider2D>(),
+                SendMessageOptions.DontRequireReceiver);
+
+        }
+
+        // Set position
+        transform.position = new Vector3(data.posRotScale.posX,
+            data.posRotScale.posY, data.posRotScale.posZ);
+
+        // Set rotation
+        transform.localRotation = Quaternion.Euler(data.posRotScale.rotX,
+            data.posRotScale.rotY, data.posRotScale.rotZ);
+
+        // Set scale
+        transform.localScale = new Vector3(data.posRotScale.scaleX,
+            data.posRotScale.scaleY, data.posRotScale.scaleZ);
+
+    }
+    }

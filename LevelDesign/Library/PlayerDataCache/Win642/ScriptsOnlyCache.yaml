@@ -4,11 +4,16 @@ ScriptsOnlyBuild:
     - Benjathemaker.SimpleGemsAnim
     - BooBehavior
     - BootStrapper
+    - CanvasManager
     - Enemy
+    - GameManager
+    - LoadSavemanager
     - MainMenu
     - MenuController
     - Pickups
     - Player
+    Unity.AI.Navigation.Editor.dll:
+    - Unity.AI.Navigation.Editor.NavMeshAssetManager
     Unity.AI.Navigation.dll:
     - Unity.AI.Navigation.NavMeshSurface
     Unity.Cinemachine.dll:
@@ -108,8 +113,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -339,6 +346,12 @@ ScriptsOnlyBuild:
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
+  - assembly: Assembly-CSharp
+    fullTypeName: CanvasManager
+    methodName: SaveGame
+  - assembly: Assembly-CSharp
+    fullTypeName: CanvasManager
+    methodName: LoadGame
   sceneClasses:
     Assets/Scenes/BootStrap.unity:
     - Class: 1
@@ -512,6 +525,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 84
       Script: {instanceID: 0}
     - Class: 89
@@ -526,6 +543,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 15550}
+    - Class: 114
+      Script: {instanceID: 15668}
     - Class: 114
       Script: {instanceID: 15948}
     - Class: 114
@@ -542,6 +563,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 17298}
     - Class: 114
       Script: {instanceID: 17396}
+    - Class: 114
+      Script: {instanceID: 17850}
     - Class: 114
       Script: {instanceID: 17918}
     - Class: 114
@@ -573,6 +596,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 24026}
     - Class: 114
+      Script: {instanceID: 24200}
+    - Class: 114
       Script: {instanceID: 24280}
     - Class: 114
       Script: {instanceID: 26720}
@@ -580,7 +605,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 26806}
     - Class: 114
       Script: {instanceID: 26830}
+    - Class: 114
+      Script: {instanceID: 27626}
+    - Class: 114
+      Script: {instanceID: 48512}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -626,6 +657,10 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -788,7 +823,7 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 02b596ec658702b95ee5036200fbdd91
+      Hash: 59c95284f33f7c82a974a0dc56887161
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Enemy
@@ -1838,7 +1873,7 @@ ScriptsOnlyBuild:
     className: Scrollbar
   - hash:
       serializedVersion: 2
-      Hash: f83366479806b897b771acf07ad55967
+      Hash: 0864b7971ddf25aa8ee5e6d90f7a9846
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Player
@@ -2180,7 +2215,7 @@ ScriptsOnlyBuild:
     className: UnityOnScrollMessageListener
   - hash:
       serializedVersion: 2
-      Hash: a05d70ef21959c0cb7f3e899372596b5
+      Hash: 6ebf9031bc1f24f4819bfb94211f3476
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CanvasManager
@@ -2844,10 +2879,22 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Splines
     namespaceName: UnityEngine.Splines
     className: SplineExtrude
+  - hash:
+      serializedVersion: 2
+      Hash: 4a8271e946bbd6c50ac407a8ef4cfc6a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LoadSavemanager
+  - hash:
+      serializedVersion: 2
+      Hash: 72542b31ef227ec68499f4f26da10396
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MusicManagedr
   platform: 19
   scenePathNames:
   - Assets/Scenes/BootStrap.unity
   - Assets/Scenes/Title.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/H00ver4ever/Documents/School/VGP 142 - CPP2/VGP142_A1_Thomas_Spivak/My
+  playerPath: C:/Users/H00ver4ever/Documents/School/VGP 142 - CPP2/VGP142_A2_Thomas_Spivak/My
     project.exe

@@ -67,10 +67,12 @@
     <Compile Include="Assets\Scripts\menus\MenuController.cs" />
     <Compile Include="Assets\Scripts\Everything\Weapon.cs" />
     <Compile Include="Assets\Scripts\GameManager\SceneManager.cs" />
+    <Compile Include="Assets\Scripts\Everything\MusicManagedr.cs" />
     <Compile Include="Assets\TerrainDemoScene_URP\Scripts\SceneAnnotation.cs" />
     <Compile Include="Assets\Scripts\Utils\BootStrapper.cs" />
     <Compile Include="Assets\Scripts\Everything\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Everything\EnemyStateMachine.cs" />
+    <Compile Include="Assets\Scripts\GameManager\LoadSavemanager.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Everything\Enemy.cs" />
     <Compile Include="Assets\Scripts\menus\BaseMenu.cs" />
